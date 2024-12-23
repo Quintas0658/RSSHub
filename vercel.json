@@ -1,17 +1,5 @@
-{
+ {
     "framework": null,
     "github": { "silent": true },
-    "builds": [
-        {
-            "src": "api/vercel.ts",
-            "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/.*",
-            "dest": "/api/vercel.ts"
-        }
-    ],
-    "outputDirectory": "assets/build"
+    "routes": [{ "src": "/.*", "dest": "/api/vercel.ts" }]
 }
